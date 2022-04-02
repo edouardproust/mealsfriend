@@ -1,0 +1,28 @@
+{
+    "name": "sygno/blog.local",
+    "description": "Course \"Learn PHP\" from Grafikart.fr, last TD",
+    "authors": [
+        {
+            "name": "Sygno",
+            "email": "sygnostudio@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "config/paths.php",
+            "config/settings.php"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "mpdf/mpdf": "^8.0"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.13",
+        "symfony/var-dumper": "^5.3",
+        "fakerphp/faker": "^1.14"
+    }
+}

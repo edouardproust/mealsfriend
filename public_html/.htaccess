@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule .*(?<!(ico|png|jpg))$ index.php [L]

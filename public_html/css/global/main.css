@@ -1,0 +1,58 @@
+/* Custom css to use on top of Bootstrap */
+/* prefix 'mf' stands for 'meals friends' */
+
+/* cards */
+.mf_card:hover {
+    background-color: #0d6efd;
+    transition: background-color 0.5s;
+}
+.mf_card:hover * {
+    color: white;
+    background-color: inherit;
+}
+.mf_bg-white {
+    background-color: white;
+}
+.loginEye {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.logo-header {
+    transition: opacity 0.3s ease-in-out;
+    margin: 5px;
+}
+.logo-header:hover {
+    opacity: 0.5;
+}
+ul.nav li {
+    padding: 0;
+    margin: 3px;
+}
+a.nav-link {
+    padding: 6px 11px;
+    transition: background-color 0.3s ease-in-out;
+}
+a.nav-link:hover,
+a.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+}
+.nav-menu-icon {
+    line-height: 24px !important;
+}
+.btn-icon {
+    padding: 4px !important;
+    width: 25px !important;
+}
+.btn-icon.help {
+    height: 38px !important;
+    width: 38px !important;
+}
+.loginEye i {
+    margin-top: 4px;
+}
+.project-icons a {
+    margin: 0 4px;
+}
