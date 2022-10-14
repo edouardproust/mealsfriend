@@ -2,7 +2,7 @@
 
 An application that allows you to easily keep track of meals with friends and family. Create an account and a new stay, and invite people sharing your stay. Everyone can add their expenses. At the end of the stay, simply click on "Calculate" to generate the list and the amount of what each person owes to the others.
 
-👉 [**Live demo**](https://https://mealsfriend.com/)
+👉 [**Live demo**](https://https://mealsfriend.net)
 
 ![image](https://user-images.githubusercontent.com/45925914/176819123-b05e5489-d99f-4141-b4b4-5bb595522657.png)
 
