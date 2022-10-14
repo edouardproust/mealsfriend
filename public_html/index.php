@@ -5,6 +5,9 @@ use App\Template\Template;
 
 require '../vendor/autoload.php';
 
+error_reporting(-1);
+ini_set('display_errors', 'On');
+
 // UNCOMMENT TO INIT THE APP (first upload online)
 // require '../config/init.php';
 
